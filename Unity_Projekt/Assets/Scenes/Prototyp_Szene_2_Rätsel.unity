@@ -375,6 +375,7 @@ GameObject:
   - component: {fileID: 196223716}
   - component: {fileID: 196223720}
   - component: {fileID: 196223719}
+  - component: {fileID: 196223721}
   m_Layer: 0
   m_Name: Circle 3
   m_TagString: Richtige Zutat
@@ -515,6 +516,22 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &196223721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196223715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9d528fe8e561fb44eb51731eb54dcf30, type: 2}
 --- !u!1 &228761371
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,6 +545,7 @@ GameObject:
   - component: {fileID: 228761372}
   - component: {fileID: 228761376}
   - component: {fileID: 228761375}
+  - component: {fileID: 228761377}
   m_Layer: 0
   m_Name: Circle 1
   m_TagString: Richtige Zutat
@@ -668,6 +686,22 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &228761377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228761371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9d528fe8e561fb44eb51731eb54dcf30, type: 2}
 --- !u!1 &441738511
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,6 +965,7 @@ GameObject:
   - component: {fileID: 1643030833}
   - component: {fileID: 1643030837}
   - component: {fileID: 1643030836}
+  - component: {fileID: 1643030838}
   m_Layer: 0
   m_Name: Circle 2
   m_TagString: Falsche Zutat
@@ -1071,6 +1106,22 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &1643030838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643030832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9d528fe8e561fb44eb51731eb54dcf30, type: 2}
 --- !u!1 &1860207962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,7 +1155,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 9d528fe8e561fb44eb51731eb54dcf30, type: 2}
+    - {fileID: 11400000, guid: 54d89460cc087d7468eee4ac3207f285, type: 2}
 --- !u!114 &1860207964
 MonoBehaviour:
   m_ObjectHideFlags: 0
