@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Richtige Zutat
   - Falsche Zutat
+  - Background
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - Water
   - UI
   - NPC
-  - 
+  - Background
   - 
   - 
   - 
