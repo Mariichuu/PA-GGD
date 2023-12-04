@@ -689,7 +689,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491359474}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.998535, w: 0.054111384}
+  m_LocalRotation: {x: 0, y: 0, z: 0.99987394, w: 0.015882613}
   m_LocalPosition: {x: 0.22223556, y: 0.21572845, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -813,7 +813,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551066975}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.000000044662116, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.043010734, w: 0.99907464}
   m_LocalPosition: {x: 1.0257783, y: 0.000000047649483, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1104,7 +1104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689864900}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.000000071437064, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.019991351, w: 0.99980015}
   m_LocalPosition: {x: 1.0721134, y: -0.0000001180443, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1136,7 +1136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708571329}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.69754267, w: 0.71654326}
+  m_LocalRotation: {x: -0, y: -0, z: 0.6943231, w: 0.71966344}
   m_LocalPosition: {x: 1.013299, y: -0.00000037151597, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1679,8 +1679,7 @@ MonoBehaviour:
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HoveredGameObject","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"OriginalColor","value":{"r":1.0,"g":1.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"typeHandle":{"Identification":"UnityEngine.Color,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HighlightColor","value":{"r":0.01886791,"g":0.01235314,"b":0.01235314,"a":0.7019608,"$type":"UnityEngine.Color"},"typeHandle":{"Identification":"UnityEngine.Color,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FacingLeft","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 21872000}
     - {fileID: 604277257}
@@ -1757,7 +1756,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114956730}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.71484643, w: 0.6992816}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7194237, w: 0.69457155}
   m_LocalPosition: {x: 1.0280622, y: -0.000000013389144, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1788,7 +1787,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123255062}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.9998082, w: -0.019585278}
+  m_LocalRotation: {x: 0, y: 0, z: -0.99997765, w: 0.0066879806}
   m_LocalPosition: {x: 0.24126379, y: -0.19875403, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
