@@ -7,6 +7,8 @@ TagManager:
   - Richtige Zutat
   - Falsche Zutat
   - Background
+  - Coins
+  - Letter
   layers:
   - Default
   - TransparentFX
