@@ -52,6 +52,9 @@ TagManager:
   - name: Symbols
     uniqueID: 3508050601
     locked: 0
+  - name: Layer Vorne
+    uniqueID: 454500495
+    locked: 0
   - name: NPC
     uniqueID: 4033453807
     locked: 0
