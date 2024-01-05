@@ -3135,6 +3135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Dialogsymbol Ru\xDFbrenner"
       objectReference: {fileID: 0}
+    - target: {fileID: 6721286734912343525, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 118ce44548d31104b9f4e6ba37bb6f23, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
