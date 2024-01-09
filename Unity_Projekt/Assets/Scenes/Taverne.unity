@@ -794,7 +794,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 52e59a4b094ccc4479993635d02794be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1145,7 +1145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491359474}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.99987394, w: 0.01588054}
+  m_LocalRotation: {x: 0, y: 0, z: 0.99987394, w: 0.01587916}
   m_LocalPosition: {x: 0.22223556, y: 0.21572845, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1602,7 +1602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708571329}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.69432205, w: 0.71966445}
+  m_LocalRotation: {x: -0, y: -0, z: 0.6943231, w: 0.71966344}
   m_LocalPosition: {x: 1.013299, y: -0.00000037151597, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2017,6 +2017,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1047339492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5145818901521058640, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
+  m_PrefabInstance: {fileID: 744164381}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1069006749
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,7 +2238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114956730}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7194223, w: 0.69457304}
+  m_LocalRotation: {x: -0, y: -0, z: 0.71942127, w: 0.69457406}
   m_LocalPosition: {x: 1.0280622, y: -0.000000013389144, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2264,7 +2269,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123255062}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.99997765, w: 0.006689517}
+  m_LocalRotation: {x: 0, y: 0, z: -0.99997765, w: 0.0066880384}
   m_LocalPosition: {x: 0.24126379, y: -0.19875403, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2596,7 +2601,8 @@ MonoBehaviour:
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Line8","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Line9","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Line10","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
-      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Dialogsymbol_Ru\u00dfbrenner","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8300000, guid: 8d82390906fcb9f4d996a8679ef42158, type: 3}
     - {fileID: 8300000, guid: 7ce8d3a8a19916540bc1119d6b7def56, type: 3}
@@ -2608,6 +2614,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: a8d07a1bc718c184bb8510aee180e216, type: 3}
     - {fileID: 8300000, guid: bcdc12409e689fc4482b364ce33dcbb6, type: 3}
     - {fileID: 8300000, guid: 193d5630f92fcbb48a562479d68175dd, type: 3}
+    - {fileID: 1047339492}
 --- !u!212 &1234977462
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2876,7 +2883,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: lalskdjlaskdjlas
+  m_Text: 
 --- !u!222 &1272954247
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4502,7 +4509,7 @@ Transform:
   m_GameObject: {fileID: 2140890222}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.95, y: -0.78, z: 0}
+  m_LocalPosition: {x: -5.05, y: -1.7592, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
