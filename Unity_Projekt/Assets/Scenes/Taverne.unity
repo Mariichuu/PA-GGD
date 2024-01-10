@@ -2293,7 +2293,7 @@ GameObject:
   - component: {fileID: 868918367}
   - component: {fileID: 868918366}
   - component: {fileID: 868918365}
-  - component: {fileID: 868918364}
+  - component: {fileID: 868918368}
   m_Layer: 0
   m_Name: PortalTrigger
   m_TagString: Untagged
@@ -2301,22 +2301,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &868918364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868918363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 47df85bc8d49fb246adb1037a5970a71, type: 2}
 --- !u!114 &868918365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2392,6 +2376,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &868918368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868918363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 15fe6697973d3a0489da0efb0aa778a4, type: 2}
 --- !u!1 &1047339492 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5145818901521058640, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
