@@ -211,6 +211,8 @@ GameObject:
   - component: {fileID: 21872003}
   - component: {fileID: 21872002}
   - component: {fileID: 21872004}
+  - component: {fileID: 21872006}
+  - component: {fileID: 21872005}
   m_Layer: 5
   m_Name: Speechbubble_Gutenberg
   m_TagString: Untagged
@@ -328,6 +330,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!225 &21872005
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21872000}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!95 &21872006
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21872000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b0cf422ef1e1a10408a694e88730b47f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &60476105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,7 +1240,7 @@ GameObject:
   - component: {fileID: 604277257}
   - component: {fileID: 604277256}
   m_Layer: 5
-  m_Name: Dialogtext
+  m_Name: Text_Gutenberg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3280,6 +3315,7 @@ GameObject:
   - component: {fileID: 1872482187}
   - component: {fileID: 1872482186}
   - component: {fileID: 1872482188}
+  - component: {fileID: 1872482189}
   m_Layer: 5
   m_Name: Speechbubble_Wendel
   m_TagString: Untagged
@@ -3397,6 +3433,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1872482189
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872482184}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b0cf422ef1e1a10408a694e88730b47f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2035421436
 GameObject:
   m_ObjectHideFlags: 0
@@ -3513,7 +3570,9 @@ MonoBehaviour:
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Line12","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Line13","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Line14","value":{"$content":13,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
-      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Speechbubble_Gutenberg","value":{"$content":14,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Text_Gutenberg","value":{"$content":15,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8300000, guid: 086939264396260479a9044c08ec7e54, type: 3}
     - {fileID: 8300000, guid: fb465abccb95db849baa52b805139478, type: 3}
@@ -3529,6 +3588,8 @@ MonoBehaviour:
     - {fileID: 8300000, guid: a0e9a46d137f6ab4dad4f523779c7c34, type: 3}
     - {fileID: 8300000, guid: 14e15be844dba5b41a8989e7ab7dd0a2, type: 3}
     - {fileID: 8300000, guid: b3ead20de7d74e84ba6ef2b3b2038dba, type: 3}
+    - {fileID: 21872000}
+    - {fileID: 604277257}
 --- !u!82 &2035421442
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4107,67 +4168,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 447be571600a8a74bba55828c321fefa, type: 2}
---- !u!1001 &1935260508719001028
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3951031866602819103, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.567
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951031866602819103, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951031866602819103, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951031866602819103, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951031866602819103, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951031866602819103, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951031866602819103, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951031866602819103, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951031866602819103, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951031866602819103, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145818901521058640, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_Name
-      value: Dialogsymbol
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145818901521058640, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8d1f5e854bd6fc24a83a3f2fd7a82fb5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4176,7 +4176,6 @@ SceneRoots:
   - {fileID: 1093971659}
   - {fileID: 2140890226}
   - {fileID: 2035421439}
-  - {fileID: 1935260508719001028}
   - {fileID: 1856470526}
   - {fileID: 364634649}
   - {fileID: 191066342}
