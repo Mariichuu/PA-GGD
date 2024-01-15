@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Taverne.unity
     guid: c5e3939210b52184bb54976a10baaaaf
   - enabled: 1
-    path: "Assets/Scenes/Prototyp_Szene_2_R\xE4tsel.unity"
+    path: "Assets/Scenes/Tavernen_R\xE4tsel.unity"
     guid: e8f4322e167009748ade64723fa3cdd2
   m_configObjects: {}

@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 196223722}
   - component: {fileID: 196223723}
   m_Layer: 0
-  m_Name: Richtig 2
+  m_Name: Kirschgummi
   m_TagString: Richtige Zutat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -687,7 +687,7 @@ GameObject:
   - component: {fileID: 228761379}
   - component: {fileID: 228761380}
   m_Layer: 0
-  m_Name: Richtig 1
+  m_Name: "Lamprenru\xDF"
   m_TagString: Richtige Zutat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1406,7 +1406,7 @@ GameObject:
   - component: {fileID: 1349959033}
   - component: {fileID: 1349959041}
   m_Layer: 0
-  m_Name: Falsch 2
+  m_Name: Branntwein
   m_TagString: Falsche Zutat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1604,7 +1604,7 @@ GameObject:
   - component: {fileID: 1643030839}
   - component: {fileID: 1643030840}
   m_Layer: 0
-  m_Name: Falsch 1
+  m_Name: Kohle
   m_TagString: Falsche Zutat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
