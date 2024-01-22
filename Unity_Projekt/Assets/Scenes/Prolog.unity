@@ -932,6 +932,9 @@ MonoBehaviour:
   clickedItemPosition: {x: 0, y: 0, z: 0}
   mainCamera: {fileID: 519420031}
   canvas: {fileID: 364634645}
+  lines:
+  - "Das sind die Werkzeuge, die wir f\xFCr die Herstellung der B\xFCcher ben\xF6tigen."
+  - "Die Druckerpresse, mit der wir unsere B\xFCcher drucken."
 --- !u!1 &269608493
 GameObject:
   m_ObjectHideFlags: 0

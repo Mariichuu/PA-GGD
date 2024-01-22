@@ -24,7 +24,7 @@ public class Textanzeige : MonoBehaviour
     /// <summary>
     /// Die Position des geklickten Objekts
     /// </summary>
-    public Vector3 clickedItemPosition;
+    private Vector3 clickedItemPosition;
     /// <summary>
     /// Referenz zur Main Camera
     /// </summary>
@@ -38,7 +38,20 @@ public class Textanzeige : MonoBehaviour
     /// Der Canvas, unter den die Beschreibung gehängt werden soll
     /// </summary>
     public GameObject canvas;
-   
+    /// <summary>
+    /// Das Kind-Objekt des Prefabs, das den Text enthalten soll
+    /// </summary>
+    private GameObject descriptionText;
+    /// <summary>
+    /// Der derzeitige Text
+    /// </summary>
+    private Text currentText;
+    /// <summary>
+    /// Die Textzeilen, die in das Textobjekt geschrieben werden sollen
+    /// </summary>
+    public string[] lines;
+
+
     void Start()
     {
         // Kamera-Komponente holen
@@ -66,11 +79,17 @@ public class Textanzeige : MonoBehaviour
             // Die Beschreibung wird als Child des Canvas gesetzt
             activeDescription.transform.SetParent(canvas.transform);
 
+            // mit Hilfe von: https://docs.unity3d.com/ScriptReference/Transform.GetChild.html
+            // Speichert das erste Kind-Objekt (der Text in der Beschreibungsbox) in einer Variable
+            descriptionText = activeDescription.gameObject.transform.GetChild(0).gameObject;
+
+            // Den derzeitigen Text zwischenspeichern
+            currentText = descriptionText.GetComponent<Text>();
+
+            currentText.text = lines[index];
+
             // Beschreibung nach Klick auf Lupensmybol aktivieren
             activeDescription.SetActive(true);
-            
-            // Diese Beschreibung ist die aktive Beschreibung
-            //activeDescription = description; 
 
             // Das klickbare Item wird über den Index ausgewählt
             clickedItem = clickableItems[index];
