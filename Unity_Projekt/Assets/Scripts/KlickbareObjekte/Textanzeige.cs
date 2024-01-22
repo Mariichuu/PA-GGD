@@ -34,6 +34,10 @@ public class Textanzeige : MonoBehaviour
     /// Die Kamera
     /// </summary>
     private Camera camera;
+    /// <summary>
+    /// Der Canvas, unter den die Beschreibung gehängt werden soll
+    /// </summary>
+    public GameObject canvas;
    
     void Start()
     {
@@ -43,15 +47,30 @@ public class Textanzeige : MonoBehaviour
         description.SetActive(false);
     }
 
+
+    void Update()
+    {
+        //mit Hilfe von https://discussions.unity.com/t/if-gameobject-is-active/13770
+        if (activeDescription != null && activeDescription.active == false)
+            Destroy(activeDescription);
+    }
+
+
     public void SetDescription(int index)
     {
         if (index >= 0 && index <= clickableItems.Length - 1)
         {
+            // Die Beschreibung wird instanziert
+            activeDescription = Instantiate(description);
+            
+            // Die Beschreibung wird als Child des Canvas gesetzt
+            activeDescription.transform.SetParent(canvas.transform);
+
             // Beschreibung nach Klick auf Lupensmybol aktivieren
-            description.SetActive(true);
+            activeDescription.SetActive(true);
             
             // Diese Beschreibung ist die aktive Beschreibung
-            activeDescription = description; 
+            //activeDescription = description; 
 
             // Das klickbare Item wird über den Index ausgewählt
             clickedItem = clickableItems[index];
