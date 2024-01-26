@@ -935,6 +935,7 @@ GameObject:
   - component: {fileID: 199941105}
   - component: {fileID: 199941104}
   - component: {fileID: 199941107}
+  - component: {fileID: 199941108}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1014,6 +1015,22 @@ MonoBehaviour:
   lines:
   - "Das sind die Werkzeuge, die wir f\xFCr die Herstellung der B\xFCcher ben\xF6tigen."
   - "Die Druckerpresse, mit der wir unsere B\xFCcher drucken."
+--- !u!114 &199941108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199941103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 447be571600a8a74bba55828c321fefa, type: 2}
 --- !u!1 &269608493
 GameObject:
   m_ObjectHideFlags: 0
@@ -4338,7 +4355,6 @@ GameObject:
   - component: {fileID: 2140890233}
   - component: {fileID: 2140890236}
   - component: {fileID: 2140890237}
-  - component: {fileID: 2140890238}
   - component: {fileID: 2140890239}
   m_Layer: 3
   m_Name: Player
@@ -4624,22 +4640,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.008661926, y: 0.11487198}
   m_Size: {x: 1.5649718, y: 5.100377}
   m_Direction: 0
---- !u!114 &2140890238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140890222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 447be571600a8a74bba55828c321fefa, type: 2}
 --- !u!82 &2140890239
 AudioSource:
   m_ObjectHideFlags: 0

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Tavernen_R\xE4tsel.unity"
     guid: e8f4322e167009748ade64723fa3cdd2
+  - enabled: 1
+    path: Assets/Scenes/Kirche.unity
+    guid: 1693cb64c80e184459db6cbe2d33d67a
   m_configObjects: {}
