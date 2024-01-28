@@ -727,8 +727,8 @@ MonoBehaviour:
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Wendel
       1","value":{"$content":19,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Wendel
-      2","value":null,"typeHandle":{"Identification":"UnityEngine.AudioClip, UnityEngine.AudioModule,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      2","value":{"$content":20,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 725076020}
     - {fileID: 925112326}
@@ -750,6 +750,7 @@ MonoBehaviour:
     - {fileID: 21872000}
     - {fileID: 604277257}
     - {fileID: 8300000, guid: f0f52f7a653825044b9d58c5e8fbcbcc, type: 3}
+    - {fileID: 8300000, guid: 85d13dc8b50738f40840ff3ffec58710, type: 3}
 --- !u!4 &199941106
 Transform:
   m_ObjectHideFlags: 0
