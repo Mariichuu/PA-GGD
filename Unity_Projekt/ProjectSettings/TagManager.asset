@@ -4,11 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Richtige Zutat
-  - Falsche Zutat
   - Background
-  - Coins
-  - Letter
+  - Richtig
+  - Falsch
   layers:
   - Default
   - TransparentFX

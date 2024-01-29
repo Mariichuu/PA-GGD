@@ -3529,6 +3529,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781618683}
   m_CullTransparentMesh: 1
+--- !u!1 &786930170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3342783827725963085, guid: c84e641910623a14dad68ed1a5cb7b4c, type: 3}
+  m_PrefabInstance: {fileID: 1939273888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &789876587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3594,6 +3599,11 @@ Transform:
   - {fileID: 269608494}
   m_Father: {fileID: 2140890226}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &820468867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6891655797313544218, guid: 1f3316457c91bc846ad83223903d7ff5, type: 3}
+  m_PrefabInstance: {fileID: 1035133231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &834495500
 GameObject:
   m_ObjectHideFlags: 0
@@ -4074,17 +4084,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5237048244508136622, guid: 1f3316457c91bc846ad83223903d7ff5, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Pfeilsymbol","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Pfeilsymbol","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5237048244508136622, guid: 1f3316457c91bc846ad83223903d7ff5, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5237048244508136622, guid: 1f3316457c91bc846ad83223903d7ff5, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 786930170}
     - target: {fileID: 6891655797313544218, guid: 1f3316457c91bc846ad83223903d7ff5, type: 3}
       propertyPath: m_Name
       value: Trigger_Pfeilsymbol_rechts
@@ -4097,13 +4107,32 @@ PrefabInstance:
     - {fileID: 8404766294487064292, guid: 1f3316457c91bc846ad83223903d7ff5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6891655797313544218, guid: 1f3316457c91bc846ad83223903d7ff5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1035133235}
   m_SourcePrefab: {fileID: 100100000, guid: 1f3316457c91bc846ad83223903d7ff5, type: 3}
 --- !u!4 &1035133232 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1544909836294618025, guid: 1f3316457c91bc846ad83223903d7ff5, type: 3}
   m_PrefabInstance: {fileID: 1035133231}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1035133235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820468867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 81e44e642ceef774bbbd4611d2eb1fe7, type: 2}
 --- !u!1001 &1057580641
 PrefabInstance:
   m_ObjectHideFlags: 0

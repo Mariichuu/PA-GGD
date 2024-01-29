@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 200099586}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Falsche Zutat
+  m_TagString: Falsch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 656665935}
   m_Layer: 0
   m_Name: Circle (1)
-  m_TagString: Richtige Zutat
+  m_TagString: Richtig
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 737961638}
   m_Layer: 0
   m_Name: Circle (2)
-  m_TagString: Falsche Zutat
+  m_TagString: Falsch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
