@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 196223723}
   m_Layer: 3
   m_Name: Circle 3
-  m_TagString: Untagged
+  m_TagString: Wort3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 228761379}
   m_Layer: 3
   m_Name: Circle 1
-  m_TagString: Richtige Zutat
+  m_TagString: Wort1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -861,7 +861,7 @@ GameObject:
   - component: {fileID: 857930459}
   m_Layer: 0
   m_Name: Square 1
-  m_TagString: Untagged
+  m_TagString: Wort1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1194,7 +1194,7 @@ GameObject:
   - component: {fileID: 945214814}
   m_Layer: 0
   m_Name: Square 2
-  m_TagString: Untagged
+  m_TagString: Wort2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1508,7 +1508,7 @@ GameObject:
   - component: {fileID: 1643030840}
   m_Layer: 3
   m_Name: Circle 2
-  m_TagString: Untagged
+  m_TagString: Wort2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1822,7 +1822,7 @@ GameObject:
   - component: {fileID: 2024416988}
   m_Layer: 0
   m_Name: Square 3
-  m_TagString: Untagged
+  m_TagString: Wort3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

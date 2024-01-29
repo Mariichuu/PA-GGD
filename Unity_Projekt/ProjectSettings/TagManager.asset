@@ -5,8 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Background
-  - Richtig
-  - Falsch
+  - Wort1
+  - Wort2
+  - Wort3
   layers:
   - Default
   - TransparentFX
