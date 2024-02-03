@@ -29,4 +29,16 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Kirchen_R\xE4tsel.unity"
     guid: d75bafbcaed08ea4e85c99ae36aa77bc
+  - enabled: 1
+    path: Assets/Scenes/Werkstatt_Drucken.unity
+    guid: 6c88d77b19f826347a372dc00c0f2c55
+  - enabled: 1
+    path: "Assets/Scenes/Misch_R\xE4tsel.unity"
+    guid: 7a0837e43f24f6046b004fe1740a44f4
+  - enabled: 1
+    path: "Assets/Scenes/Lettern_Platzieren_R\xE4tsel.unity"
+    guid: 3819f7bae4c189941ae996db1c3770a6
+  - enabled: 1
+    path: "Assets/Scenes/Symbol_R\xE4tsel.unity"
+    guid: 544054f71c0e2a14280471ab4b2db40e
   m_configObjects: {}
