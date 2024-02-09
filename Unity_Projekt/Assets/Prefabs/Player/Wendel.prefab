@@ -692,7 +692,7 @@ GameObject:
   - component: {fileID: 8813896503886324701}
   - component: {fileID: 8241442701231779555}
   m_Layer: 3
-  m_Name: Wendel 1
+  m_Name: Wendel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

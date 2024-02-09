@@ -3727,13 +3727,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9217680127179525773, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_Name
-      value: Wendel 1
+      value: Wendel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
+--- !u!82 &1131211555 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8241442701231779555, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
+  m_PrefabInstance: {fileID: 1131211554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1138271779
 GameObject:
   m_ObjectHideFlags: 0
@@ -6637,7 +6642,7 @@ MonoBehaviour:
     - {fileID: 604277257}
     - {fileID: 21872000}
     - {fileID: 8300000, guid: 891edc92233418147badf4d3de064557, type: 3}
-    - {fileID: 2140890238}
+    - {fileID: 1131211555}
 --- !u!82 &2035421442
 AudioSource:
   m_ObjectHideFlags: 0
