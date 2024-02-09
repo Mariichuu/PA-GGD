@@ -3949,7 +3949,8 @@ MonoBehaviour:
       1","value":{"$content":13,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Wendel","value":{"$content":14,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LetterA","value":{"$content":15,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Letter_Jingle","value":{"$content":16,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8300000, guid: 8d82390906fcb9f4d996a8679ef42158, type: 3}
     - {fileID: 8300000, guid: 7ce8d3a8a19916540bc1119d6b7def56, type: 3}
@@ -3967,6 +3968,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 41882186b9edd874187db153c6b7e37d, type: 3}
     - {fileID: 2140890238}
     - {fileID: 1054584180}
+    - {fileID: 8300000, guid: 3856b9d7de4ce1246852b0745ed73cf3, type: 3}
 --- !u!212 &1234977462
 SpriteRenderer:
   m_ObjectHideFlags: 0
