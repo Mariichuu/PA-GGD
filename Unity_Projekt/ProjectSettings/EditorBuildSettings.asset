@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Symbol_R\xE4tsel.unity"
     guid: 544054f71c0e2a14280471ab4b2db40e
+  - enabled: 1
+    path: Assets/Scenes/Epilog_Kirche.unity
+    guid: 497f9c1c4df0d8b4da89f29462686feb
   m_configObjects: {}
