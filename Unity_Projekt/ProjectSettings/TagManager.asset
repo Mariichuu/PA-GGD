@@ -54,9 +54,9 @@ TagManager:
   - name: Layer Vorne
     uniqueID: 454500495
     locked: 0
-  - name: NPC
-    uniqueID: 4033453807
-    locked: 0
   - name: Player
     uniqueID: 3086894265
+    locked: 0
+  - name: NPC
+    uniqueID: 4033453807
     locked: 0
