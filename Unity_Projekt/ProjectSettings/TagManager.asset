@@ -8,6 +8,10 @@ TagManager:
   - Wort1
   - Wort2
   - Wort3
+  - Falsch
+  - Richtige Zutat
+  - Falsche Zutat
+  - Zielcontainer
   layers:
   - Default
   - TransparentFX
