@@ -857,6 +857,7 @@ GameObject:
   - component: {fileID: 199941105}
   - component: {fileID: 199941104}
   - component: {fileID: 199941107}
+  - component: {fileID: 199941108}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -934,6 +935,102 @@ MonoBehaviour:
   canvas: {fileID: 364634645}
   lines:
   - Autsch! Leider hat mein Meister noch keine kalten Kerzen erfunden...
+--- !u!82 &199941108
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199941103}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a8ec062f3fe55ed4baf08f4778ff38a1, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.763
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &251204378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4230,27 +4327,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1021642818217026520, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99988204
+      value: 0.99988234
       objectReference: {fileID: 0}
     - target: {fileID: 1021642818217026520, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.015360339
+      value: -0.015341572
       objectReference: {fileID: 0}
     - target: {fileID: 4527962468190476640, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.71433395
+      value: 0.71433556
       objectReference: {fileID: 0}
     - target: {fileID: 4527962468190476640, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.699805
+      value: 0.6998033
       objectReference: {fileID: 0}
     - target: {fileID: 7415262980689827842, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6752112
+      value: 0.67521876
       objectReference: {fileID: 0}
     - target: {fileID: 7415262980689827842, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7376245
+      value: 0.7376177
       objectReference: {fileID: 0}
     - target: {fileID: 8035523726960755893, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4294,11 +4391,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8144608318611566391, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.009387628
+      value: 0.009385657
       objectReference: {fileID: 0}
     - target: {fileID: 8144608318611566391, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.99995595
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241442701231779555, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241442701231779555, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241442701231779555, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8492954258663600253, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4306,15 +4415,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8492954258663600253, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.011469012
+      value: -0.011464659
       objectReference: {fileID: 0}
     - target: {fileID: 8833167019274440552, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.023289613
+      value: 0.02329816
       objectReference: {fileID: 0}
     - target: {fileID: 8833167019274440552, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.9997288
+      value: 0.9997286
       objectReference: {fileID: 0}
     - target: {fileID: 9217680127179525773, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_Name
