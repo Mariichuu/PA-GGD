@@ -947,7 +947,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a8ec062f3fe55ed4baf08f4778ff38a1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.763
+  m_Volume: 0.475
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3531,6 +3531,7 @@ GameObject:
   - component: {fileID: 837715571}
   - component: {fileID: 837715573}
   - component: {fileID: 837715572}
+  - component: {fileID: 837715574}
   m_Layer: 5
   m_Name: Letter A
   m_TagString: Untagged
@@ -3595,6 +3596,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837715570}
   m_CullTransparentMesh: 1
+--- !u!95 &837715574
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837715570}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: edafb3952fa5eba4e827d0f658f46391, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &846871138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4091,9 +4113,9 @@ MonoBehaviour:
     - {fileID: 1705197121}
     - {fileID: 1230670761}
     - {fileID: 1272954246}
-    - {fileID: 2132603670}
-    - {fileID: 628526245}
-    - {fileID: 284763082}
+    - {fileID: 837715570}
+    - {fileID: 1716328741}
+    - {fileID: 1779497427}
 --- !u!4 &1093971659
 Transform:
   m_ObjectHideFlags: 0
@@ -4764,7 +4786,9 @@ MonoBehaviour:
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Wendel","value":{"$content":14,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LetterA","value":{"$content":15,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Letter_Jingle","value":{"$content":16,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
-      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Letter
+      Inventar","value":{"$content":17,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8300000, guid: 8d82390906fcb9f4d996a8679ef42158, type: 3}
     - {fileID: 8300000, guid: 7ce8d3a8a19916540bc1119d6b7def56, type: 3}
@@ -4783,6 +4807,7 @@ MonoBehaviour:
     - {fileID: 1131211555}
     - {fileID: 1054584180}
     - {fileID: 8300000, guid: 3856b9d7de4ce1246852b0745ed73cf3, type: 3}
+    - {fileID: 837715570}
 --- !u!212 &1234977462
 SpriteRenderer:
   m_ObjectHideFlags: 0

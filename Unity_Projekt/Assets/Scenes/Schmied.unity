@@ -1587,6 +1587,7 @@ GameObject:
   - component: {fileID: 751687446}
   - component: {fileID: 751687448}
   - component: {fileID: 751687447}
+  - component: {fileID: 751687449}
   m_Layer: 5
   m_Name: Letter f
   m_TagString: Untagged
@@ -1651,6 +1652,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751687445}
   m_CullTransparentMesh: 1
+--- !u!95 &751687449
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751687445}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: edafb3952fa5eba4e827d0f658f46391, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &781618683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,7 +2138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4043505512151401983, guid: c84e641910623a14dad68ed1a5cb7b4c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 258
+      value: 326.2
       objectReference: {fileID: 0}
     - target: {fileID: 4043505512151401983, guid: c84e641910623a14dad68ed1a5cb7b4c, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2406,9 +2428,9 @@ MonoBehaviour:
     - {fileID: 604277257}
     - {fileID: 1705197121}
     - {fileID: 1427141487}
-    - {fileID: 2132603670}
-    - {fileID: 628526245}
-    - {fileID: 284763082}
+    - {fileID: 2020419397}
+    - {fileID: 751687445}
+    - {fileID: 1986229307}
 --- !u!4 &1093971659
 Transform:
   m_ObjectHideFlags: 0
@@ -4015,6 +4037,8 @@ MonoBehaviour:
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Dialogsymbol","value":{"$content":22,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Letter_Jingle","value":{"$content":23,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LetterB","value":{"$content":24,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Letter
+      Inventar","value":{"$content":25,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8300000, guid: 779394dc68286354682839dc8f02463a, type: 3}
@@ -4042,6 +4066,7 @@ MonoBehaviour:
     - {fileID: 1072276918}
     - {fileID: 8300000, guid: 3856b9d7de4ce1246852b0745ed73cf3, type: 3}
     - {fileID: 981754167}
+    - {fileID: 751687445}
 --- !u!82 &2035421442
 AudioSource:
   m_ObjectHideFlags: 0
