@@ -5,13 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Background
-  - Wort1
-  - Wort2
-  - Wort3
-  - Falsch
   - Richtige Zutat
   - Falsche Zutat
   - Zielcontainer
+  - Letter 2
+  - Letter 3
+  - Letter 1
+  - Letter 4
+  - Letter 5
+  - Letter 6
+  - Letter 7
   layers:
   - Default
   - TransparentFX
