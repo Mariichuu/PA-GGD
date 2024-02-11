@@ -99,7 +99,7 @@ public class Textanzeige : MonoBehaviour
 
             // mit Hilfe von: https://docs.unity3d.com/ScriptReference/Camera.WorldToScreenPoint.html
             // Die aktive Beschreibung wird mit einem leichten Abstand zum geklickten Item gesetzt
-            activeDescription.transform.position = camera.WorldToScreenPoint(clickedItemPosition) + new Vector3(0f, 300f, 0f);
+            activeDescription.transform.position = camera.WorldToScreenPoint(clickedItemPosition) + new Vector3(0f, -200f, 0f);
         }
     }
 }

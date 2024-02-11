@@ -1199,11 +1199,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1021642818217026520, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99988204
+      value: 0.99988234
       objectReference: {fileID: 0}
     - target: {fileID: 1021642818217026520, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.015360339
+      value: -0.015341572
       objectReference: {fileID: 0}
     - target: {fileID: 2160960308247562917, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_Enabled
@@ -1215,11 +1215,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4527962468190476640, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.71433556
+      value: 0.7143373
       objectReference: {fileID: 0}
     - target: {fileID: 4527962468190476640, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.6998033
+      value: 0.6998016
       objectReference: {fileID: 0}
     - target: {fileID: 6666179448048405958, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_Enabled
@@ -1227,11 +1227,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7415262980689827842, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6752112
+      value: 0.67521876
       objectReference: {fileID: 0}
     - target: {fileID: 7415262980689827842, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7376245
+      value: 0.7376177
       objectReference: {fileID: 0}
     - target: {fileID: 8035523726960755893, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1275,19 +1275,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8144608318611566391, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.009385658
+      value: 0.009383688
       objectReference: {fileID: 0}
     - target: {fileID: 8144608318611566391, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.99995595
+      value: -0.999956
       objectReference: {fileID: 0}
     - target: {fileID: 8492954258663600253, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9999343
+      value: 0.9999344
       objectReference: {fileID: 0}
     - target: {fileID: 8492954258663600253, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.011464665
+      value: -0.011460306
       objectReference: {fileID: 0}
     - target: {fileID: 8813896503886324701, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_Enabled
@@ -1295,11 +1295,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8833167019274440552, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.023289613
+      value: 0.02329816
       objectReference: {fileID: 0}
     - target: {fileID: 8833167019274440552, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.9997288
+      value: 0.9997286
       objectReference: {fileID: 0}
     - target: {fileID: 9217680127179525773, guid: c514305a1d457514f8594e4099d16d9b, type: 3}
       propertyPath: m_Name
@@ -3110,6 +3110,14 @@ PrefabInstance:
     - target: {fileID: 2785129481717911359, guid: 2a0dbaf07d22b6249a6a77962a1dcce8, type: 3}
       propertyPath: m_Name
       value: FadeToBlack
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464224333118967026, guid: 2a0dbaf07d22b6249a6a77962a1dcce8, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 77e9201d64390154b86e5e128adc66ed, type: 3}
+    - target: {fileID: 3464224333118967026, guid: 2a0dbaf07d22b6249a6a77962a1dcce8, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8316407744427937450, guid: 2a0dbaf07d22b6249a6a77962a1dcce8, type: 3}
       propertyPath: m_Pivot.x
