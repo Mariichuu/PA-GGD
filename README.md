@@ -1,18 +1,18 @@
 # PA-GGD
 Das ist unser Repo zur Projektarbeit im Modul Grundlagen Gamedesign.
 
-# Projectname
- -- Ein einleitender Satz was sich in diesem Repo befindet. --
+# Gamedesign Wendel und die verlorenen Letter
+ Dieses Repo enthält eine kurze Beschreibung vom Spiel, sowie die Steuerung, Features und Credits.
 
 ## Description
 Ein Lernspiel über den Buchdruck für das Fach Geschichte.
 
 ### Features
-* Feature 1
-* Feature 2
+* Storygame
+* Rätsel
 
 ### Controls
-Wie steuert man in der Anwendung / Spiel?
+Das Spiel wird mithilfe von einer "Point and Click"-Funktion gesteuert (Maus).
 
 ## Authors
 Ahmad Mariam
@@ -20,9 +20,9 @@ Bohl Lukas
 Cakir Zara
 
 ## Credits
-This game was created in the Visualization and Interaction in Digital Media (VIS) program of HS Ansbach. 
+Dieses Spiel wurde im Studiengang Visualisierung und Interaktion in digitalen Medien (VIS) der HS Ansbach entwickelt.
 
-Supervised by Prof. Florian Machill and Sebastian Stamm (Gamedesign WS 23/24)
+Betreut von Prof. Florian Machill and Sebastian Stamm (Gamedesign WS 23/24)
 
 ## Third Party Credits
 
