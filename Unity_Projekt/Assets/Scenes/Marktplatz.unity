@@ -2595,9 +2595,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Lupensymbol","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Lupensymbol","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _objectReferences:
+    - {fileID: 853229566}
 --- !u!61 &567957973
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3525,6 +3526,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844968032}
   m_CullTransparentMesh: 1
+--- !u!1 &853229566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8011645705085832086, guid: f5146cea5616f4a44b45ea2ac94c3305, type: 3}
+  m_PrefabInstance: {fileID: 172281945}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &865857939
 GameObject:
   m_ObjectHideFlags: 0
@@ -7606,7 +7612,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &1969376758
 RectTransform:
